@@ -1,0 +1,73 @@
+= Offene Fragen zum Konzept
+Thomas W. Stütz
+1.0, : Projekt "Mobile Control Unit" - 2020-09-19.Konzept Mobile Kontrolleinheit CANtrol.pdf
+ifndef::imagesdir[:imagesdir: images]
+:icons: font
+:sectnums:    // Nummerierung der Überschriften / section numbering
+:toc: left
+
+//Need this blank line after ifdef, don't know why...
+ifdef::backend-html5[]
+
+// https://fontawesome.com/v4.7.0/icons/
+//icon:file-text-o[link=https://raw.githubusercontent.com/htl-leonding-college/asciidoctor-docker-template/master/asciidocs/{docname}.adoc] ‏ ‏ ‎
+//icon:github-square[link=https://github.com/htl-leonding-college/asciidoctor-docker-template] ‏ ‏ ‎
+//icon:home[link=https://htl-leonding.github.io/]
+endif::backend-html5[]
+
+
+== CanSAT - Wettbewerb
+
+* https://ars.electronica.art/esero/de/projects/cansat/[CanSat-Wettbewerb (ars.electronica), window="_blank"]
+* https://ars.electronica.art/esero/de/cansat-oesterreich-wettbewerb-2020-21/[CanSat Österreich Wettbewerb 2020/21, window="_blank"]
+* https://ars.electronica.art/esero/de/[ESERO Österreich, window="_blank"]
+* https://www.esa.int/Education/CanSat[CanSat International, window="_blank"]
+* http://esero.es/wp-content/uploads/2019/10/T08_Getting_Started_with_CanSat.pdf[Getting Started with CanSat (pdf), window="_blank"]
+
+
+== Präzisierung der Funktionalität
+
+* Analyse
+** Welche Komponenten enthält eine Raktete, wie werden diese Komponenten angesteuert? --> Schnittstellen
+** Zeitliche Abfolge eines Starts?
+** Was muss/soll/kann geloggt werden?
+
+== Präzisierung der Schnittstellen
+
+== Präzisierung der Hardware
+
+=== Leistungsaufnahme des Koffers?
+
+* Ist eine Bleibatterie notwendig?
+
+== Wieviele Teams sind notwendig
+
+* Ein Team für Software
+* Ein Team für Hardware inkl. Ansteuerungsprogrammierung
+* Brauchen wir Kooperationspartner
+** Werkstätte?
+** Elektroniker?
+
+== Architektur?
+
+=== Verwendung von MQTT?
+
+* Welche Anforderungen an Echtzeit sind gegeben?
+** https://haptik.ai/tech/real-time-messaging-using-mqtt/[Real Time Messaging using MQTT, window="_blank"]
+** https://medium.com/coinmonks/real-time-data-transfer-for-iot-with-mqtt-android-and-nodemcu-ae4b01f87be4[Real Time Data Transfer for IoT with MQTT , Android and NodeMCU, window="_blank"]
+
+
+== Nächste Schritte:
+
+* [ ] Klärung der offenen Fragen
+
+* [ ] Meeting Begleitlehrer
+** Termin:
+
+* [ ] Meeting Auftraggeber
+** Termin:
+
+* [ ] Vorgespräch Schüler
+** Termin:
+
+
